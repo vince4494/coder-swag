@@ -13,6 +13,8 @@
 		0AD2B3DB1FA2C16C009D62DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD2B3DA1FA2C16C009D62DA /* Assets.xcassets */; };
 		0AD2B3DE1FA2C16C009D62DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD2B3DC1FA2C16C009D62DA /* LaunchScreen.storyboard */; };
 		0AD2B3EA1FA2C9AB009D62DA /* CateygoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2B3E91FA2C9AB009D62DA /* CateygoryCell.swift */; };
+		0AD307F51FA3A64000FBC2E2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD307F41FA3A64000FBC2E2 /* Category.swift */; };
+		0AD307F81FA3A85900FBC2E2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD307F71FA3A85900FBC2E2 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0AD2B3DD1FA2C16C009D62DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD2B3DF1FA2C16C009D62DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD2B3E91FA2C9AB009D62DA /* CateygoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateygoryCell.swift; sourceTree = "<group>"; };
+		0AD307F41FA3A64000FBC2E2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0AD307F71FA3A85900FBC2E2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,8 @@
 		0AD2B3D21FA2C16C009D62DA /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				0AD307F61FA3A84A00FBC2E2 /* Services */,
 				0AD2B3E81FA2C96B009D62DA /* View */,
-				0AD2B3E71FA2C6F1009D62DA /* New Group */,
 				0AD2B3E61FA2C6E8009D62DA /* Model */,
 				0AD2B3E51FA2C6DC009D62DA /* Controller */,
 				0AD2B3D31FA2C16C009D62DA /* AppDelegate.swift */,
@@ -80,15 +84,9 @@
 		0AD2B3E61FA2C6E8009D62DA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0AD307F41FA3A64000FBC2E2 /* Category.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		0AD2B3E71FA2C6F1009D62DA /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		0AD2B3E81FA2C96B009D62DA /* View */ = {
@@ -97,6 +95,14 @@
 				0AD2B3E91FA2C9AB009D62DA /* CateygoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0AD307F61FA3A84A00FBC2E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0AD307F71FA3A85900FBC2E2 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +180,8 @@
 				0AD2B3EA1FA2C9AB009D62DA /* CateygoryCell.swift in Sources */,
 				0AD2B3D61FA2C16C009D62DA /* CategoriesVC.swift in Sources */,
 				0AD2B3D41FA2C16C009D62DA /* AppDelegate.swift in Sources */,
+				0AD307F51FA3A64000FBC2E2 /* Category.swift in Sources */,
+				0AD307F81FA3A85900FBC2E2 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
